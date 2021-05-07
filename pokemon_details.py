@@ -32,4 +32,4 @@ pokemon_df = pd.DataFrame.from_dict(pokemon_dat).transpose()
 
 print(pokemon_df['pokemon_base_hp'])
 plt.plot(pokemon_df['pokemon_name'],pokemon_df['pokemon_base_hp']);
-plt.show()
+plt.savefig('pokemon-hp-base.png')
